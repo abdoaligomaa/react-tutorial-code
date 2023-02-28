@@ -1,13 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Greeting from "./Greeting";
+import Book from "./Book";
+import bookData from "./data";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Greeting />
+    <Book
+      img={bookData.image}
+      title={bookData.title}
+      description={bookData.description}
+      price={bookData.price}
+    />
   </React.StrictMode>
 );
 

@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -12,8 +12,9 @@ code {
     monospace;
 }
 
-.greeting {
-  background-color: rgb(227, 195, 195);
+.book {
+  border: 5px solid gold;
+  margin: auto;
   text-align: center;
   padding: 10px;
 }
